@@ -34,6 +34,8 @@ public class MobileApp {
 			driver.findElement(By.xpath("//android.widget.Button[@content-desc=\"Swipe\"]")).click();
 			Thread.sleep(2000);
 			swipeRightToLeft(5);
+			
+			System.out.println("Testing for the checkout");
 		}catch(Exception ex) {
 			System.out.println(ex);
 		}
